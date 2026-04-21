@@ -1,4 +1,4 @@
-/*// 1. Setup variables and paste your key here
+// 1. Setup variables and paste your key here
 const apiKey = "ec86bdc0cde588903424cb73ef9fb672";
 const btn = document.getElementById("search-btn");
 const input = document.getElementById("city-input");
@@ -33,9 +33,9 @@ async function checkWeather() {
 }
 
 // 4. Run the function when the button is clicked
-btn.addEventListener("click", checkWeather);
-*/
+  btn.addEventListener("click", checkWeather);  
 
+/*
 // 1. Setup variables
 const btn = document.getElementById("search-btn");
 const input = document.getElementById("city-input");
@@ -90,4 +90,5 @@ async function checkWeather() {
 }
 
 // 4. Button click
-btn.addEventListener("click", checkWeather);
+btn.addEventListener("click", checkWeather);  
+*/
